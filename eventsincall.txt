@@ -1,0 +1,8 @@
+--- Example --- 1/18/2019 4:08:40 PM ------------------------------------------
+Call Start/Stop Event
+CallId: 2145437
+MenuId: 1-4567
+Action: Answer
+CallerId: 8182238964
+Duration: 
+

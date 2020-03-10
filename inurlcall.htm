@@ -1,0 +1,236 @@
+<html>
+   <head>
+      <title>VoiceShot API v5.0 - Demo</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <style type="text/css">
+         <!--
+            a:hover { color: #C00000 }
+            .newbdytxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; line-height: 125%  }
+            .chklsttxt {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt }
+            .titletxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt}
+            .bluelink{ color: #0000CC; }
+            -->
+      </style>
+   </head>
+   <body bgcolor="#FFFFFF">
+      <p>&nbsp;</p>
+      <table width="500" border="0" cellspacing="0" cellpadding="1" align="center" bgcolor="#999966">
+         <tr>
+            <td>
+               <table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+                  <tr>
+                     <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="1" align="center" class="titletxt">
+                           <tr>
+                              <td height="35"><b>Configuring URLs</b></td>
+                              <td height="35" align="right"><b>Inbound voice call example</b></td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="1" align="center" bgcolor="#999966">
+                           <tr>
+                              <td>
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr bgcolor="#F4F4E1">
+                                       <td>&nbsp;</td>
+                                    </tr>
+                                    <tr bgcolor="#F4F4E1">
+                                       <td>
+                                          <table width="90%" border="0" cellspacing="0" cellpadding="0" align="center" class="newbdytxt">
+                                             <tr>
+                                                <td>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="1" class="newbdytxt" align="center">
+                                                      <tr>
+                                                         <td><b><font color="#660000">&nbsp;&nbsp;Configure 
+                                                            Call Events URL</font></b>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td>
+                                                            <hr size="1" width="100%" align="left">
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>Call Event is information sent to your application 
+                                                   during the phone call. &nbsp;Call Events enable 
+                                                   a real-time two way communication between your campaign 
+                                                   and your application. &nbsp;To receive Call Events 
+                                                   for this example, do the following:
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <table border="0" cellspacing="0" cellpadding="5" align="center" class="chklsttxt" width="100%">
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>Log into your VoiceShot account.</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>Open the inbound campaign named <b>Developer 
+                                                            IVR Demo v5.0</b>. 
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>
+                                                            <p>From the menu bar, click <b>Campaign --&gt; 
+                                                               Options</b>
+                                                            </p>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>Click the <b>Developer tab</b>.</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>For <b>Call Events URL</b>, enter:<br>
+                                                            http://yourserver/installdir/eventsincall.asp
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>For more information on Call Events, <a href="http://www.voiceshot.com/docs/ivrapivr5/?callevents" target="_blank">click 
+                                                            here</a>. 
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="1" class="newbdytxt" align="center">
+                                                      <tr>
+                                                         <td>
+                                                            <hr size="1" width="100%" align="left">
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td><b><font color="#660000">&nbsp;&nbsp;Configure 
+                                                            Call Summary URL</font></b><font color="#666666">*</font>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td>
+                                                            <hr size="1" width="100%" align="left">
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>A Call Summary is a collection of data about a 
+                                                   phone call sent to your application at the end of 
+                                                   the phone call. &nbsp;For example, a Call Summary 
+                                                   includes information such as the caller's number, 
+                                                   key press information, duration and more. &nbsp;To 
+                                                   receive Call Summaries for this example, do the 
+                                                   following:
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <table border="0" cellspacing="0" cellpadding="5" align="center" class="chklsttxt" width="100%">
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>Log into your VoiceShot account.</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>Open the inbound campaign named <b>Developer 
+                                                            IVR Demo v5.0</b>. 
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>
+                                                            <p>From the menu bar, click <b>Campaign --&gt; 
+                                                               Options</b>
+                                                            </p>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>Click the <b>Developer tab</b>.</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>For <b>Call Summary URL</b>, enter:<br>
+                                                            http://yourserver/installdir/summaryincall.asp
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td>For more information on Call Summary, <a href="http://www.voiceshot.com/docs/ivrapiv5/?callsummary" target="_blank">click 
+                                                            here</a>. 
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt">In the URLs above, replace &quot;yourserver&quot; 
+                                                   with the Web address of your Web server and &quot;installdir&quot; 
+                                                   with the directory you installed the example in.
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center"><a href="#" onClick="history.back(-1); return false" class="bluelink">Back</a></td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt"><b><font color="#666666">*</font></b><font color="#666666"> 
+                                                   Optional</font> 
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <br>
+      <div align="center">
+         <font color="#666666" class="chklsttxt">
+            Copyright © <script type="text/javascript">
+               document.write(new Date().getFullYear());
+            </script> VoiceShot LLC
+         </font>
+      </div>
+      <p>&nbsp;</p>
+   </body>
+</html>

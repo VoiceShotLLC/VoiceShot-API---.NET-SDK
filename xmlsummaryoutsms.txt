@@ -1,0 +1,4 @@
+--- Example --- 6/26/2019 3:22:32 PM ------------------------------------------
+<campaign menuid="1-789" phonenumber="8185550100" status="Successful" comment="" callid="9870" dateandtime="6/26/2008 3:19:22 PM">
+</campaign>
+

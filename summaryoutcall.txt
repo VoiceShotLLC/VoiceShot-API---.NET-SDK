@@ -1,0 +1,14 @@
+--- Example --- 1/18/2019 3:53:42 PM ------------------------------------------
+MenuId: 1-1234
+Duration: 11
+Phone Number: 18182238964
+Status: Successful
+Comment: Human Answer
+Call ID: 4567
+Node Name: prompt
+Prompt: 1 KeyPress: 
+Node Name: prompt
+Prompt: 2 KeyPress: 
+Node Name: prompt
+Prompt: 3 KeyPress: #
+

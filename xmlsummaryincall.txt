@@ -1,0 +1,8 @@
+--- Example --- 1/18/2019 4:09:18 PM ------------------------------------------------------
+<campaign menuid="1-4567" duration="28" callerid="8182238964" callid="2145437">
+	<prompts>
+		<prompt promptid="1" keypress="1234">
+		</prompt>
+	</prompts>
+</campaign>
+

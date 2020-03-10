@@ -1,0 +1,184 @@
+<html>
+   <head>
+      <title>VoiceShot API v5.0 - Demo</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <style type="text/css">
+         <!--
+            a:hover { color: #C00000 }
+            .newbdytxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; line-height: 125%  }
+            .chklsttxt {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt }
+            .titletxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt}
+            .bluelink{ color: #0000CC; }
+            -->
+      </style>
+   </head>
+   <body bgcolor="#FFFFFF">
+      <p>&nbsp;</p>
+      <table width="500" border="0" cellspacing="0" cellpadding="1" align="center" bgcolor="#999966">
+         <tr>
+            <td>
+               <table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+                  <tr>
+                     <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="1" align="center" class="titletxt">
+                           <tr>
+                              <td height="35"><b>Overview</b></td>
+                              <td height="35" align="right"><b>Inbound text message example</b></td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="1" align="center" bgcolor="#999966">
+                           <tr>
+                              <td>
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr bgcolor="#F4F4E1">
+                                       <td>
+                                          <table width="90%" border="0" cellspacing="0" cellpadding="0" align="center" class="newbdytxt">
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>The inbound text message example demonstrates 
+                                                   receiving a text message and delivering it in real-time 
+                                                   to your application with the VoiceShot IVR API.
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <p>This demo is designed to work with the <b>Developer 
+                                                      Text Message Demo v5.0</b> campaign in your VoiceShot 
+                                                      account.
+                                                   </p>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>In this example, you send a text message to a 
+                                                   demonstration number, and the text message is delivered 
+                                                   in XML to your Web server.
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <hr size="1" width="100%" align="left">
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td><b><font color="#660000">&nbsp;&nbsp;Description 
+                                                   of Inbound Text Message Example Menu Options</font></b>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <hr size="1" width="100%" align="left">
+                                                   <b></b>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <table width="100%" border="0" cellspacing="0" cellpadding="1">
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td class="chklsttxt"><b>Configure Account</b></td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center">&nbsp;</td>
+                                                         <td class="chklsttxt">Configure communication 
+                                                            between your Web server or application and 
+                                                            your VoiceShot account.
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center">&nbsp;</td>
+                                                         <td class="chklsttxt">&nbsp;</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td class="chklsttxt"><b>Test Configuration</b></td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center">&nbsp;</td>
+                                                         <td class="chklsttxt"> Verifies that VoiceShot 
+                                                            can contact your Web server or application.
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center">&nbsp;</td>
+                                                         <td class="chklsttxt">&nbsp;</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td class="chklsttxt"><b>Receive Text Message</b></td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center">&nbsp;</td>
+                                                         <td class="chklsttxt"><b> </b>Instructions for 
+                                                            receiving a text message.
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center">&nbsp;</td>
+                                                         <td class="chklsttxt">&nbsp;</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center"><font color="#666666">&#149;</font></td>
+                                                         <td class="chklsttxt"><b>Call Summary</b></td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" class="chklsttxt" align="center">&nbsp;</td>
+                                                         <td class="chklsttxt"> Displays text message 
+                                                            received with <a href="showsummaryinsms.aspx" target="_blank" class="bluelink">Call 
+                                                            Summary</a>.
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center"><a href="default.htm" class="bluelink">Back</a></td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <br>
+      <div align="center">
+         <font color="#666666" class="chklsttxt">
+            Copyright © <script type="text/javascript">
+               document.write(new Date().getFullYear());
+            </script> VoiceShot 
+            LLC
+         </font>
+      </div>
+      <p>&nbsp;</p>
+   </body>
+</html>

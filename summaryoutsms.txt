@@ -1,0 +1,7 @@
+--- Example --- 6/26/2019 3:22:32 PM ------------------------------------------
+MenuId: 1-789
+Phone Number: 8185550100
+Status: Successful
+Comment: 
+Call ID: 9870
+

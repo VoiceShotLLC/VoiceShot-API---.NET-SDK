@@ -1,0 +1,207 @@
+<html>
+   <head>
+      <title>VoiceShot API v5.0 - Demo</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <style type="text/css">
+         <!--
+            a:hover { color: #C00000 }
+            .newbdytxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; line-height: 125%  }
+            .chklsttxt {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt }
+            .titletxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt}
+            .bluelink{ color: #0000CC; }
+            -->
+      </style>
+   </head>
+   <body bgcolor="#FFFFFF">
+      <p>&nbsp;</p>
+      <table width="500" border="0" cellspacing="0" cellpadding="1" align="center" bgcolor="#999966">
+         <tr>
+            <td>
+               <table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+                  <tr>
+                     <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="1" align="center" class="titletxt">
+                           <tr>
+                              <td height="35" width="200"><b>Send Text Message</b></td>
+                              <td height="35" align="right"><b>Outbound text message example</b></td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="1" align="center" bgcolor="#999966">
+                           <tr>
+                              <td>
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr bgcolor="#F4F4E1">
+                                       <td class="chklsttxt" align="center">
+                                          Requires v5.0 Demo 
+                                          Campaigns. &nbsp;<a href="demoversions.htm" class="bluelink">Learn 
+                                          more</a> 
+                                          <form method="post" action="startoutsms.aspx">
+                                             <table width="90%" border="0" cellspacing="0" cellpadding="2" align="center" class="newbdytxt">
+                                                <tr>
+                                                   <td><b><font color="#660000">&nbsp;&nbsp;Required 
+                                                      Parameters</font></b>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>
+                                                      <hr size="1" width="100%" align="left">
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>
+                                                      <p><b>Phone Number<br>
+                                                         </b><span class="chklsttxt">During the Free Trial, the number you are sending to must be <a href="registeripsms.htm" class="bluelink">authorized</a>.</span>
+                                                      </p>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td> 
+                                                      <input type="text" name="phonenumber" size="25">
+                                                      (ex: 8182238964) 
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td>
+                                                      <p><b>Caller ID<br>
+                                                         </b><span class="chklsttxt">Leave blank if using 
+                                                         the free trial. &nbsp;If you have purchased 
+                                                         a VoiceShot SMS plan, place your SMS ID 
+                                                         here.</span>
+                                                      </p>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td> 
+                                                      <input type="text" name="callerid" size="25">
+                                                      (ex: user@vsfyi.com)
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td><b>Message</b></td>
+                                                </tr>
+                                                <tr>
+                                                   <td> 
+                                                      <input type="text" name="txt" size="50" value="Web Server 5 is down.">
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>&nbsp; </td>
+                                                </tr>
+                                                <tr>
+                                                   <td align="right">
+                                                      <table width="80%" border="0" cellspacing="0" cellpadding="0" class="newbdytxt" align="center">
+                                                         <tr>
+                                                            <td height="30">View XML without sending</td>
+                                                            <td align="center" width="75" height="30"> 
+                                                               <input type="submit" name="submit" value="View">
+                                                            </td>
+                                                         </tr>
+                                                         <tr>
+                                                            <td height="30">Send XML to VoiceShot</td>
+                                                            <td align="center" width="75" height="30"> 
+                                                               <input type="submit" name="submit2" value="Send">
+                                                            </td>
+                                                         </tr>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td class="chklsttxt">After clicking Send, seeing 
+                                                      <b>errorid=0</b> indicates VoiceShot has successfully 
+                                                      received your request.
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td class="chklsttxt">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td>
+                                                      <hr size="1" width="100%" align="left">
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td><b><font color="#660000">&nbsp;&nbsp;Optional 
+                                                      Parameters</font></b>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>
+                                                      <hr size="1" width="100%" align="left">
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>
+                                                      <p><b>MenuId</b><br>
+                                                         <span class="chklsttxt">During the Free Trial, you can only use the Demo campaign.</span>
+                                                      </p>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td> 
+                                                      <input type="radio" name="usedefault" value="1" CHECKED>
+                                                      Use &quot;Developer Text Message Demo v5.0&quot; 
+                                                      campaign
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td> 
+                                                      <input type="radio" name="usedefault" value="0">
+                                                      or MenuId: 
+                                                      <input type="text" name="menuid" size="25">
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td><b>CallID </b>(optional)</td>
+                                                </tr>
+                                                <tr>
+                                                   <td> 
+                                                      <input type="text" name="callid" size="25">
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td class="chklsttxt" align="center"><a href="#" onClick="history.back(-1); return false" class="bluelink">Back</a></td>
+                                                </tr>
+                                             </table>
+                                          </form>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <span class="chklsttxt"></span><br>
+      <div align="center">
+         <font color="#666666" class="chklsttxt">
+            Copyright © <script type="text/javascript">
+               document.write(new Date().getFullYear());
+            </script> VoiceShot LLC
+         </font>
+      </div>
+      <p>&nbsp;</p>
+   </body>
+</html>

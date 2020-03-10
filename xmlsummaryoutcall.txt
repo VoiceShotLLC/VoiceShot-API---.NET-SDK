@@ -1,0 +1,12 @@
+--- Example --- 6/26/2019 3:53:42 PM ------------------------------------------
+<campaign menuid="1-1234" duration="11" phonenumber="18182238964" status="Successful" comment="Human Answer" callid="4567" dateandtime="1/18/2008 3:48:35 PM">
+	<prompts>
+		<prompt promptid="1" keypress="">
+		</prompt>
+		<prompt promptid="2" keypress="">
+		</prompt>
+		<prompt promptid="3" keypress="#">
+		</prompt>
+	</prompts>
+</campaign>
+

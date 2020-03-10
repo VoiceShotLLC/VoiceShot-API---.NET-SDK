@@ -1,0 +1,6 @@
+--- Example --- 1/18/2019 4:09:05 PM ------------------------------------------
+Prompt Event
+CallId: 4567
+MenuId: 1-1234
+PromptId: 1
+KeyPress: 100

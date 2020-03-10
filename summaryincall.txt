@@ -1,0 +1,7 @@
+--- Example --- 1/18/2019 4:09:18 PM ------------------------------------------------------
+MenuId: 1-4567
+Duration: 28
+Phone Number: 8182238964
+Node Name: prompt
+Prompt: 1 KeyPress: 1234
+

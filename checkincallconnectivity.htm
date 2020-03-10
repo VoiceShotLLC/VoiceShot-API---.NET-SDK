@@ -1,0 +1,162 @@
+<html>
+   <head>
+      <title>VoiceShot API v5.0 - Demo</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <style type="text/css">
+         <!--
+            a:hover { color: #C00000 }
+            .newbdytxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; line-height: 125%  }
+            .chklsttxt {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt }
+            .titletxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt}
+            .bluelink{ color: #0000CC; }
+            -->
+      </style>
+   </head>
+   <body bgcolor="#FFFFFF">
+      <p>&nbsp;</p>
+      <table width="500" border="0" cellspacing="0" cellpadding="1" align="center" bgcolor="#999966">
+         <tr>
+            <td>
+               <table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#FFFFFF">
+                  <tr>
+                     <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="1" align="center" class="titletxt">
+                           <tr>
+                              <td height="35"><b>Test Configuration</b></td>
+                              <td height="35" align="right"><b>Inbound voice call example</b></td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="1" align="center" bgcolor="#999966">
+                           <tr>
+                              <td>
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr bgcolor="#F4F4E1">
+                                       <td>
+                                          <table width="90%" border="0" cellspacing="0" cellpadding="0" align="center" class="newbdytxt">
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>To test communication between VoiceShot and your 
+                                                   Web server:
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>
+                                                   <table border="0" cellspacing="0" cellpadding="5" align="center" class="chklsttxt">
+                                                      <tr>
+                                                         <td width="15" align="center" valign="top"><img src="smrarrowg.gif" width="8" height="8" vspace="3"></td>
+                                                         <td>Log into your VoiceShot account.</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center" valign="top"><img src="smrarrowg.gif" width="8" height="8" vspace="3"></td>
+                                                         <td>Open the inbound campaign named <b>Developer 
+                                                            IVR Demo v5.0</b>. 
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center" valign="top"><img src="smrarrowg.gif" width="8" height="8" vspace="3"></td>
+                                                         <td>
+                                                            <p>From the menu bar, click <b>Campaign --&gt; 
+                                                               Options</b>
+                                                            </p>
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center" valign="top"><img src="smrarrowg.gif" width="8" height="8" vspace="3"></td>
+                                                         <td>Click the <b>Developer tab</b>.</td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center" valign="top"><img src="smrarrowg.gif" width="8" height="8" vspace="3"></td>
+                                                         <td>For <b>Call Events URL</b>, click the <b>Test</b> 
+                                                            button. &nbsp;Your server should respond with 
+                                                            <b>200 OK</b>.
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center" valign="top"><img src="smrarrowg.gif" width="8" height="8" vspace="3"></td>
+                                                         <td>Click <a href="showeventsincall.aspx" class="bluelink"> 
+                                                            Call Events</a>. &nbsp;You should see the 
+                                                            test Call Event sent from VoiceShot.
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center" valign="top"><img src="smrarrowg.gif" width="8" height="8" vspace="3"></td>
+                                                         <td>For <b>Call Summary URL</b>, click the <b>Test</b> 
+                                                            button. &nbsp;Your server should respond with 
+                                                            <b>200 OK</b>.
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <td width="15" align="center" valign="top"><img src="smrarrowg.gif" width="8" height="8" vspace="3"></td>
+                                                         <td>Click <a href="showsummaryincall.aspx" class="bluelink">
+                                                            Call Summary</a>. &nbsp;You should see the 
+                                                            test Call Summary sent from VoiceShot.
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>The files in this demo write the XML received 
+                                                   from VoiceShot to text files in the same directory 
+                                                   that these files are in. &nbsp;Your Web server will 
+                                                   need &quot;write permissions&quot; to this directory.
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td>Writing files is only part of the demonstration 
+                                                   and note required for production. &nbsp;In a production 
+                                                   environment, it is likely that your application 
+                                                   will be communicating with a database instead.
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center"><a href="#" onClick="history.back(-1); return false" class="bluelink">Back</a></td>
+                                             </tr>
+                                             <tr>
+                                                <td class="chklsttxt" align="center">&nbsp;</td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <br>
+      <div align="center">
+         <font color="#666666" class="chklsttxt">
+            Copyright © <script type="text/javascript">
+               document.write(new Date().getFullYear());
+            </script> VoiceShot LLC
+         </font>
+      </div>
+      <p>&nbsp;</p>
+   </body>
+</html>
